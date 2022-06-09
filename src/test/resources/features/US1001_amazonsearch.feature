@@ -1,5 +1,5 @@
-Feature: US1001_amazon_sear
-
+Feature: US1001_amazon_search
+@paralel1
   Scenario: TC01_Amazon Search Testi
     Given kullanici amazon sayfasina gider
     And iPhone icin arama yapar

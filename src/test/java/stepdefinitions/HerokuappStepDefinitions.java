@@ -1,5 +1,6 @@
 package stepdefinitions;
 
+import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
@@ -29,9 +30,6 @@ public class HerokuappStepDefinitions {
     public void delete_butonuna_basarak_butonu_siler() {
 herokuappPage.deleteButonElement.click();
     }
-
-
-
 
 
 
